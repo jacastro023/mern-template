@@ -14,7 +14,7 @@
 git init
 git add .
 git commit -m "first commit"
-git remote add origin git@git.generalassemb.ly:SEI-CC/test.git // this will be whatever your address will be, look at the address in the code github gives you!
+git remote add origin ........ // this will be whatever your address will be, look at the address in the code github gives you!
 git push -u origin main
 ```
 
@@ -29,9 +29,9 @@ git push -u origin main
 add your variables
 
 ```
-DATABASE_URL=mongodb://localhost:27017/testagramV2
-BUCKET_NAME=catcollectorone
-SECRET=mysecretforjwt
+DATABASE_URL=------------------
+BUCKET_NAME=---------
+SECRET=--------------
 ```
 
 The app is configured, to use those respective key names for the database, jwt secret and aws bucket, of course you'll have your own values
